@@ -9,6 +9,6 @@ if pifagor == side3**2
     puts "Треугольник является прямоугольным"
 elsif (side1 == side2 && side1 != side3) || (side1 == side3 && side1 != side2) || (side2 == side3 && side2 != side1)
     puts "Треугольник является равнобедренным"
-elsif side1 == side2 && side1 == side3 && side2 == side3
+elsif side1 == side2 && side2 == side3
     puts "Треуголник является равносторонним"
 end
